@@ -1,0 +1,119 @@
+@charset "UTF-8";
+/* CSS DOCUMENt */
+
+.hidden {
+   display: none;
+}
+
+.siteContainer {
+   width: 1400px;
+   height: auto;
+   margin: 0 auto;
+}
+
+.siteContainer div {   /* Scaffhold only  REMOVE later*/
+   background-color: black;
+   text-align: center;
+   color: white;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+/* Header section */
+header {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+   margin-bottom: 10px;
+}
+
+.logo {
+   width: 250px;
+   height: 50px;
+   margin: 10px 0px 0px 20px;
+}
+
+.navcon {
+   width: 367px;
+   height: 50px;
+   margin: 10px 20px 0px 0px;
+}
+
+/* HERO image Section */
+.hero {
+   width: 100%;
+   height: 500px;
+}
+
+/* Sections */
+
+.sectionContainer {
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   flex-wrap: wrap;
+}
+
+.section__small {
+   width: 350px;
+   height: 300px;
+   margin: 50px 40px;
+}
+
+.section__large {
+   width: 813px;
+   height: 300px;
+   margin: 50px 40px;
+}
+
+/* About */
+
+.about {
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   flex-wrap: wrap;
+}
+
+.section__half {
+   width: 550px;
+   height: 300px;
+   margin: 100px 50px;
+}
+
+.section__six {
+   width: 320px;
+   height: 150px;
+   margin: 25px 20px;
+}
+
+/* Footer */
+
+footer {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+   flex-wrap: wrap;
+   margin-top: 20px;
+}
+
+.logo__footer {
+   width: 250px;
+   height: 50px;
+   margin: 20px 0px;
+}
+
+.nav__footer {
+   width: 617px;
+   height: 50px;
+   margin-bottom: 40px;
+}

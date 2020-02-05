@@ -5,6 +5,8 @@
    display: none;
 }
 
+.margin-bottom-large {margin-bottom: 100px;}
+
 body {
    font-weight: 300;
    font-size: 20px;
@@ -221,7 +223,6 @@ header {
    flex-wrap: wrap;
 }
 
-
 .linkStore {
    text-align: center;
    margin-bottom: 10px;
@@ -231,6 +232,48 @@ header {
    display: inline-block;
    margin-left: 5px;
 }
+
+/* Our Beer */
+
+.a4-row {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: baseline;
+   flex-wrap: wrap;
+   text-align: center;
+}
+
+.a4-row > * {
+   margin: 10px 80px;
+   width: 150px;
+}
+
+.bottom-border {
+   border-bottom: 10px solid #454545;
+   width: 90%;
+   margin: 0 auto;
+}
+
+
+.contents__title {
+   font-weight: 500;
+   font-size: 28px;
+}
+
+.contents__details h2 {
+   font-weight: 500;
+   font-size: 50px;
+   line-height: 60px;
+   margin: 13px 0;
+   color: #C6112F;
+}
+
+.contents__details h3 {
+   font-size: 18;
+   font-weight: 500;
+}
+
 
 /* Footer */
 

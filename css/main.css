@@ -14,7 +14,6 @@ body {
    font-family: Helvetica, sans-serif;
 }
 
-
 h3 {
    font-weight: 300;
    font-size: 20px;
@@ -274,6 +273,95 @@ header {
    font-weight: 500;
 }
 
+
+/* Contact */
+
+.contact__form {
+   width: 640px;
+}
+
+.sendEmail {
+   color: #8B0017;
+   width: 150px;
+   font-weight: 500;
+   font-size: 16px;
+   border-bottom: 3px solid #454545;
+   margin-bottom: 20px;
+}
+
+/* Form */
+
+.contact__form {
+   width: 600px;
+   height: 500px;
+}
+
+.contact__form form * {
+   width: 427px;
+   padding: 6px;
+   font-size: 16px;
+   line-height: 17px;
+   font-weight: 100;
+   text-transform: uppercase;
+   background: #FFFFFF 0% 0% no-repeat padding-box;
+   box-shadow: 5px 5px 10px rgba(0, 0, 8, 0.08);
+   border: 0.5px solid #5c0000;
+   margin: 10px 0px;
+   outline: none;
+
+}
+
+.contact__form form *:focus {
+   background-color: rgb(240, 240, 240);
+   color: black;
+}
+
+.contact__form textarea {
+   height: 238px;
+   resize: none;
+}
+
+.contact__form input[type=submit] {
+   font-size: 14px;
+   font-weight: 500;
+   color: #fff;
+   background: transparent linear-gradient(90deg, #1F0000 0%, #760000 100%) 0% 0% no-repeat padding-box;
+   box-shadow: 0px 5px 10px #00000029;
+   width: 92px;
+   height: 32;
+   display: block;
+}
+
+.contact__form p {
+   font-size: 12px;
+   line-height: 15px;
+   width: 433px;
+}
+
+.infoEmail p:not(:first-child) {
+   display: inline;
+}
+
+.contact__form a {
+   font-size: 12px;
+   line-height: 15px;
+   display: inline;
+   margin: 0px 5px;
+}
+
+.contactCon {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   margin: 100px 0px;
+}
+
+.contact__image img {
+   width: 708px;
+   height: 449px;
+}
 
 /* Footer */
 

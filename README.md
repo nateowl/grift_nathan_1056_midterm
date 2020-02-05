@@ -1,1 +1,14 @@
-# grift_nathan_1056_midterm
+# Beer Company Midterm
+
+### Author
+
+Designer & Developer - Nate Grift
+
+### Tools Used
+   - HTML
+   - CSS3
+   - Javascript
+   - Markdown
+
+### License
+MIT

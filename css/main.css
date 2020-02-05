@@ -5,6 +5,8 @@
    display: none;
 }
 
+.margin-bottom-large {margin-bottom: 100px;}
+
 body {
    font-weight: 300;
    font-size: 20px;
@@ -140,9 +142,9 @@ header {
 }
 
 .gradient-grey img {
-   width: 140px;
+   width: 115px;
+   height: 218px;
    margin: 0 auto;
-
 }
 
 .section__large {
@@ -191,6 +193,88 @@ header {
    margin-top: 50px;
 }
 
+/* Products */
+
+.bigRed {
+   color: #8B0017;
+   font-weight: bold;
+   font-size: 40px;
+   text-align: center;
+   text-transform: uppercase;
+   margin-top: 50px;
+}
+
+.productTitle {
+   color: #C6112F;
+   font-weight: 500;
+   width: 200px;
+   padding: 5px;
+   border-bottom: 5px solid #454545;
+   margin: 20px auto;
+}
+
+.product {
+   width: 350px;
+   height: 300px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+   flex-wrap: wrap;
+}
+
+.linkStore {
+   text-align: center;
+   margin-bottom: 10px;
+}
+
+.linkStore p {
+   display: inline-block;
+   margin-left: 5px;
+}
+
+/* Our Beer */
+
+.a4-row {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: baseline;
+   flex-wrap: wrap;
+   text-align: center;
+}
+
+.a4-row > * {
+   margin: 10px 80px;
+   width: 150px;
+}
+
+.bottom-border {
+   border-bottom: 10px solid #454545;
+   width: 90%;
+   margin: 0 auto;
+}
+
+
+.contents__title {
+   font-weight: 500;
+   font-size: 28px;
+}
+
+.contents__details h2 {
+   font-weight: 500;
+   font-size: 50px;
+   line-height: 60px;
+   margin: 13px 0;
+   color: #C6112F;
+}
+
+.contents__details h3 {
+   font-size: 18;
+   font-weight: 500;
+}
+
+
 /* Footer */
 
 footer {
@@ -200,7 +284,6 @@ footer {
    justify-content: space-around;
    align-items: center;
    flex-wrap: wrap;
-   margin-top: 20px;
    background: transparent linear-gradient(90deg, #000000 0%, #420000 100%) 0% 0% no-repeat;
 }
 

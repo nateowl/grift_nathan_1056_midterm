@@ -1,6 +1,32 @@
 @charset "UTF-8";
 /* CSS DOCUMENt */
 
+@keyframes slidedown {
+   0% {
+      transform: translateY(-40px);
+      opacity: 0;
+   }
+
+   100% {
+      transform: translateY(0px);
+      opacity: 1;
+   }
+}
+
+@keyframes slidein {
+   0% {
+      transform: translateX(400px);
+      opacity: 0;
+   }
+
+   100% {
+      transform: translateX(0px);
+      opacity: 1;
+   }
+}
+
+
+
 .hidden {
    display: none;
 }
@@ -11,14 +37,15 @@ body {
    font-weight: 300;
    font-size: 20px;
    line-height: 24px;
-   font-family: Helvetica, sans-serif;
+   font-family: 'Open Sans', Helvetica, sans-serif;
+
 }
 
 h3 {
    font-weight: 300;
    font-size: 20px;
    line-height: 24px;
-   font-family: Helvetica, sans-serif;
+   font-family: 'Oswald', Helvetica, sans-serif;
    margin-bottom: 10px;
    text-transform: uppercase;
 }
@@ -40,10 +67,15 @@ header {
    background: transparent linear-gradient(90deg, #000000 0%, #420000 100%) 0% 0% no-repeat;
 }
 
+.logo {
+   height: 40px;
+}
 
 .logo img {
-   width: 135px;
-   height: 40px;
+   height: 35px;
+   margin: 2.5px;
+   margin-left: 20px;
+   animation: .5s ease-in 0s 1 slidedown;
 }
 
 .searchmenu {
@@ -51,11 +83,13 @@ header {
    flex-direction: row;
    justify-content: flex-start;
    align-items: center;
+   animation: .5s ease-in 0s 1 slidedown;
 }
 
 .searchmenu label {
    height: 20px;
 }
+
 #search {
    font-weight: lighter;
    font-size: 20px;
@@ -65,6 +99,7 @@ header {
    outline: none;
    color: #FFFFFF;
    margin-left: 10px;
+   font-family: 'Open Sans', Helvetica, sans-serif;
 }
 
 #search::placeholder {
@@ -78,6 +113,7 @@ header {
 .navcon li {
    display: inline-block;
    margin-right: 32px;
+   animation: .5s ease-in 0s 1 slidein;
 }
 
 .navcon a {
@@ -95,6 +131,7 @@ header {
 .hero img {
    width: 100%;
    height: 500px;
+
 }
 
 /* Sections */
@@ -256,11 +293,14 @@ header {
 
 
 .contents__title {
-   font-weight: 500;
-   font-size: 28px;
+   font-weight: 400;
+   font-size: 30px;
+   line-height: 24px;
+   margin-bottom: 20px;
+   text-transform: uppercase;
 }
 
-.contents__details h2 {
+.contents__details_red {
    font-weight: 500;
    font-size: 50px;
    line-height: 60px;
@@ -268,8 +308,8 @@ header {
    color: #C6112F;
 }
 
-.contents__details h3 {
-   font-size: 18;
+.contents__details_info {
+   font-size: 18px;
    font-weight: 500;
 }
 
@@ -328,7 +368,7 @@ header {
    background: transparent linear-gradient(90deg, #1F0000 0%, #760000 100%) 0% 0% no-repeat padding-box;
    box-shadow: 0px 5px 10px #00000029;
    width: 92px;
-   height: 32;
+   height: 32px;
    display: block;
 }
 
@@ -378,6 +418,7 @@ footer {
 .logo__footer {
    margin: 20px 0px;
    filter: drop-shadow(10px 10px 10px rgba(218, 0, 0, 0.10));
+   width: 200px;
 }
 
 .nav__footer {
